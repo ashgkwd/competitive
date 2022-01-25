@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+  openjdk:
+    image: openjdk
+    working_dir: /project
+    volumes:
+      - ./:/project
